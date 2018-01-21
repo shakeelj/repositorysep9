@@ -1,4 +1,3 @@
-		node
 		{ 
 		stage'download_from_github'
 		sh "echo download"
@@ -12,4 +11,7 @@
 		sh "echo deploy"
 		stage'executeansible'
 		sh "echo ansible"
+		stage'approval'
+		input 'Do you want to proceed'
+		
 		}
