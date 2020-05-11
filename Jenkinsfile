@@ -1,4 +1,5 @@
-		{ 
+		node
+                { 
 		stage'download_from_github'
 		sh "echo download"
 		
