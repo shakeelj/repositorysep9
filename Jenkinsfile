@@ -1,4 +1,4 @@
-		node
+		jenkins
                 { 
 		stage'download_from_github'
 		sh "echo download"
